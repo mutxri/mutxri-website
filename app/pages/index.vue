@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: 'MUTXRI | Financial Systems for Service Businesses: Fix Profit Leaks and Cash Flow',
+  title: 'MUTXRI | Financial Systems for SMBs: Find Profit Leaks, Build Systems, Scale Smarter',
   meta: [
     {
       name: 'description',

@@ -61,7 +61,7 @@ const scrollTo = (href: string) => {
           class="hidden lg:inline-flex items-center gap-2 bg-gold-500 hover:bg-gold-400 text-forest-950 font-semibold text-sm px-6 py-3 transition-all duration-300 tracking-wide"
           @click.prevent="scrollTo('#contact')"
         >
-          Book A Free Profit Leak Audit
+          Book Your Free Financial Health Audit
           <Icon name="mdi:arrow-right" size="16" />
         </a>
 
@@ -97,7 +97,7 @@ const scrollTo = (href: string) => {
           class="mt-4 inline-flex items-center justify-center gap-2 bg-gold-500 hover:bg-gold-400 text-forest-950 font-semibold px-6 py-3 transition-all duration-300"
           @click.prevent="scrollTo('#contact')"
         >
-          Book A Free Profit Leak Audit
+          Book Your Free Financial Health Audit
           <Icon name="mdi:arrow-right" size="16" />
         </a>
       </div>

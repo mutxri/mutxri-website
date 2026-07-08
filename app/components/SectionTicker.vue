@@ -20,12 +20,12 @@
 
 <script setup lang="ts">
 const items = [
-  { icon: 'mdi:chart-line',       text: 'Profit Leak Detection' },
-  { icon: 'mdi:cash-check',       text: 'Cash Flow Systems' },
-  { icon: 'mdi:calculator',       text: 'Pricing Strategy' },
-  { icon: 'mdi:shield-check',     text: 'Financial Audit' },
-  { icon: 'mdi:trending-up',      text: 'Revenue Optimization' },
-  { icon: 'mdi:clipboard-check',  text: 'Growth Systems' },
+  { icon: 'mdi:clipboard-search', text: 'Profit Leak Detection' },
+  { icon: 'mdi:cash-check',       text: 'Fractional CFO' },
+  { icon: 'mdi:cog-outline',      text: 'System Design' },
+  { icon: 'mdi:shield-check',     text: 'CPA Support' },
+  { icon: 'mdi:file-chart',       text: 'Financial Health Audit' },
+  { icon: 'mdi:chart-line',       text: 'Strategic Planning' },
 ]
 </script>
 

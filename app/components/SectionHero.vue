@@ -63,7 +63,7 @@ const bgStyle = computed(() => ({
           >
             <div class="w-8 sm:w-10 h-px bg-gold-500" />
             <span class="text-gold-400 text-[10px] sm:text-xs font-medium tracking-[0.25em] sm:tracking-[0.3em] uppercase font-sans">
-              Financial Profit Optimization · Service Business Specialists
+              Financial Systems for SMBs
             </span>
           </div>
 
@@ -72,10 +72,11 @@ const bgStyle = computed(() => ({
             class="font-serif text-[2.6rem] sm:text-5xl md:text-6xl lg:text-[4.5rem] font-bold text-white leading-[1.05] mb-6 sm:mb-8 animate-slide-up"
             style="animation-delay: 0.4s; opacity: 0; animation-fill-mode: forwards;"
           >
-            Fix Your<br />
-            <em class="not-italic text-forest-400">Profit Leaks.</em><br />
-            Build Cash<br />
-            Flow Systems.
+            Find the<br />
+            <em class="not-italic text-forest-400">Leak.</em><br />
+            Fix the<br />
+            System. Protect<br />
+            the Profit.
           </h1>
 
           <!-- Subtitle -->
@@ -83,7 +84,7 @@ const bgStyle = computed(() => ({
             class="text-white/60 text-base sm:text-lg font-sans font-light max-w-xl leading-relaxed mb-10 sm:mb-12 animate-slide-up"
             style="animation-delay: 0.65s; opacity: 0; animation-fill-mode: forwards;"
           >
-            We help service business owners stop losing money to hidden inefficiencies and build the financial systems that turn revenue into real, lasting profit.
+            We help SMB owners find the hidden profit drains in their financial statements, build the systems that plug them, and deliver the financial leadership to grow without the guesswork.
           </p>
 
           <!-- CTA buttons -->
@@ -96,7 +97,7 @@ const bgStyle = computed(() => ({
               class="inline-flex items-center justify-center gap-3 bg-gold-500 hover:bg-gold-400 active:bg-gold-600
                      text-forest-950 font-semibold px-7 sm:px-8 py-3.5 sm:py-4 transition-all duration-300 group text-sm tracking-wide"
             >
-              Book a Free Profit Leak Audit
+              Book Your Free Financial Health Audit
               <Icon name="mdi:arrow-right" size="18" class="transition-transform duration-300 group-hover:translate-x-1" />
             </a>
             <a
@@ -105,7 +106,7 @@ const bgStyle = computed(() => ({
                      text-white/80 hover:text-white px-7 sm:px-8 py-3.5 sm:py-4 font-medium transition-all duration-300 text-sm tracking-wide"
             >
               <Icon name="mdi:compass" size="18" class="text-forest-400" />
-              See Where Your Profit Is Leaking
+              See How The System Works
             </a>
           </div>
 
@@ -116,9 +117,9 @@ const bgStyle = computed(() => ({
           >
             <div
               v-for="stat in [
-                { value: '40–50%', label: 'Gross Margin Achieved' },
-                { value: '6–10%',  label: 'Net Profit Improvement' },
-                { value: 'P&L',    label: 'Numbers-First Approach' },
+                { value: '40\u201350%', label: 'Gross Margin Target' },
+                { value: '6\u201310%',  label: 'Profit Improvement' },
+                { value: 'P&L',    label: 'P&L to Cash Flow' },
               ]"
               :key="stat.label"
               class="flex flex-col gap-1"
@@ -138,7 +139,7 @@ const bgStyle = computed(() => ({
           <div class="relative overflow-hidden">
             <img
               src="/hero.jpeg"
-              alt="Service business profit optimization"
+              alt="SMB financial optimization"
               class="w-full h-[540px] object-cover object-center"
             />
             <!-- Subtle dark overlay to blend with dark theme -->
@@ -149,8 +150,8 @@ const bgStyle = computed(() => ({
 
           <!-- Floating stat card bottom-left -->
           <div class="absolute -bottom-5 -left-5 bg-gold-500 px-6 py-4 shadow-2xl">
-            <div class="font-serif text-2xl font-bold text-forest-950">40–50%</div>
-            <div class="text-forest-900/70 text-[10px] tracking-[0.2em] uppercase font-sans mt-0.5">Gross Margin Achieved</div>
+            <div class="font-serif text-2xl font-bold text-forest-950">40-50%</div>
+            <div class="text-forest-900/70 text-[10px] tracking-[0.2em] uppercase font-sans mt-0.5">Gross Margin Target</div>
           </div>
 
           <!-- Decorative border offset -->
