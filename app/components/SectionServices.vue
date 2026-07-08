@@ -11,52 +11,68 @@ interface Service {
 
 const services: Service[] = [
   {
-    icon: 'mdi:chart-areaspline',
-    title: 'Financial Optimization',
+    icon: 'mdi:clipboard-search',
+    title: 'Profit Leak Detection',
     description:
-      'We analyze your income statement, cash flow, and full cost structure to identify exactly where your profit is going.',
+      'We go beyond surface-level bookkeeping. Using your P&L, balance sheet, and cash flow statement, we pinpoint exactly where profit is bleeding.',
     detail:
-      'We start with a deep review of your financials: income statement, job costing, pricing model, and cash flow. Most clients discover significant recoverable profit they didn\'t know existed. You get a clear picture of your numbers and a prioritized roadmap to fix what\'s broken.',
+      'We start with a deep dive into your financial statements: P&L, balance sheet, and cash flow. Most clients discover significant recoverable profit they didn\'t know existed. We identify pricing gaps, overhead leaks, margin erosion, and cash cycle inefficiencies that are silently draining your business.',
     benefits: [
-      'Identify hidden profit leaks in labor, pricing, and overhead',
-      'Build a job costing model that shows real margin per job',
-      'Review P&L against industry benchmarks for your trade',
-      'Map cash flow gaps that cause month-end pressure',
+      'Pinpoint profit leaks using your actual financial statements',
+      'Identify pricing gaps and margin erosion',
+      'Map cash cycle inefficiencies affecting cash flow',
+      'Get a prioritized roadmap of what to fix first',
     ],
-    included: ['Financial Audit', 'P&L Review', 'Job Costing', 'Cash Flow Map', 'Action Plan'],
-    cta: 'Start a Free Financial Audit',
+    included: ['P&L Review', 'Balance Sheet Analysis', 'Cash Flow Mapping', 'Leak Identification', 'Action Plan'],
+    cta: 'Start Your Free Financial Health Audit',
   },
   {
-    icon: 'mdi:account-hard-hat',
-    title: 'Productivity Systems',
+    icon: 'mdi:chart-line',
+    title: 'Fractional CFO Services',
     description:
-      'We measure and improve revenue per technician, reduce costly callbacks, and build accountability systems that extract more output from your existing team.',
+      'Strategic financial leadership without the $300K salary. Forecasting, planning, board-ready reporting, and decision support.',
     detail:
-      'Low revenue per technician and high callback rates are the two biggest silent drains on service business profitability. We benchmark your current numbers, identify what\'s dragging output down, and build simple systems that hold the team accountable, without adding headcount.',
+      'You don\'t need a full-time CFO. You need someone who can guide your financial strategy, build forecasts that actually predict reality, produce board-ready reports, and help you make confident decisions. We provide executive-level financial guidance that pays for itself - without the overhead of a full-time hire.',
     benefits: [
-      'Benchmark and improve revenue per technician',
-      'Identify and reduce the root causes of costly callbacks',
-      'Build dispatch and scheduling efficiency that reduces windshield time',
-      'Create accountability tracking that managers can actually use',
+      'Data-driven financial forecasting and cash flow planning',
+      'Board-ready reporting and KPI dashboards',
+      'Strategic guidance for growth and investment decisions',
+      'Fractional cost - full executive impact',
     ],
-    included: ['Productivity Audit', 'Callback Analysis', 'KPI Dashboard', 'Accountability System', 'Team Reporting'],
-    cta: 'Improve Team Productivity',
+    included: ['Financial Forecasting', 'Cash Flow Planning', 'Board Reporting', 'KPI Dashboards', 'Strategic Guidance'],
+    cta: 'Get CFO-Level Support',
   },
   {
-    icon: 'mdi:bullhorn-outline',
-    title: 'Growth & Lead Systems',
+    icon: 'mdi:cog-outline',
+    title: 'System Design',
     description:
-      'We help service businesses generate consistent service calls through proven marketing and lead systems, so you stop depending on the busy season to survive.',
+      'We build your financial infrastructure from the ground up - with profit optimization wired into every layer.',
     detail:
-      'Feast-or-famine revenue cycles are a financial problem as much as a marketing one. We build lead generation systems calibrated to your trade and market, turning unpredictable call volume into a steady, predictable pipeline that you can plan, hire, and invest around.',
+      'Most businesses run on spreadsheets and gut feel. We change that. We design and implement custom financial reporting structures, KPI dashboards, job costing frameworks, and cash flow models tailored to your business. Every system we build has profit optimization baked in - so you\'re not just tracking numbers, you\'re protecting margin.',
     benefits: [
-      'Build a consistent inbound service call pipeline',
-      'Reduce dependence on seasonality and word-of-mouth',
-      'Track marketing spend against actual revenue generated',
-      'Scale service calls without scaling overhead proportionally',
+      'Custom P&L structures and reporting frameworks',
+      'KPI dashboards that show real-time profitability',
+      'Job costing frameworks to track margin per project',
+      'Cash flow models that prevent surprises',
     ],
-    included: ['Lead Audit', 'Pipeline Build', 'Marketing Systems', 'ROI Tracking', 'Scaling Plan'],
-    cta: 'Build a Consistent Pipeline',
+    included: ['Financial Reporting Structure', 'KPI Dashboard', 'Job Costing Framework', 'Cash Flow Model', 'Profit Optimization Layer'],
+    cta: 'Design Your Financial System',
+  },
+  {
+    icon: 'mdi:shield-check',
+    title: 'CPA Support',
+    description:
+      'We work alongside your existing CPA firm to ensure your books are audit-ready, your classifications are clean, and tax season is stress-free.',
+    detail:
+      'Tax season shouldn\'t be a fire drill. We collaborate with your existing CPA firm to make sure your books are clean, your classifications are correct, and everything is ready when they need it. No surprises. No last-minute scrambling. Your CPA will thank you.',
+    benefits: [
+      'Audit-ready books at any time of year',
+      'Clean classifications that reduce tax-time errors',
+      'Seamless collaboration with your existing CPA',
+      'No last-minute fire drills or surprise adjustments',
+    ],
+    included: ['Book Cleanup', 'Classification Review', 'CPA Coordination', 'Audit Preparation', 'Ongoing Support'],
+    cta: 'Get CPA-Ready',
   },
 ]
 
@@ -100,19 +116,19 @@ onMounted(() => {
           data-aos-delay="80"
         >
           What We Fix Inside<br />
-          <span class="text-forest-400">Your Service Business</span>
+          <span class="text-forest-400">Your Business</span>
         </h2>
         <p
           class="text-white/50 text-base font-sans font-light leading-relaxed"
           data-aos="fade-up"
           data-aos-delay="140"
         >
-          From financial systems and pricing strategy to technician productivity and lead generation. We address every lever that moves profit.
+          From profit leak detection and fractional CFO support to custom system design and CPA collaboration. We address every lever that moves profit.
         </p>
       </div>
 
       <!-- Services grid -->
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-forest-800/40">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-forest-800/40">
         <div
           v-for="(service, i) in services"
           :key="service.title"

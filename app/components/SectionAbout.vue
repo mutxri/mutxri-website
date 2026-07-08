@@ -15,9 +15,9 @@
             class="font-serif text-4xl md:text-5xl font-bold text-forest-900 leading-tight mb-8"
             data-aos="fade-right"
             data-aos-delay="80"
-          >
-            Most Service Businesses Are<br />Busy… But Not<br />
-            <em class="not-italic text-forest-700">Profitable</em>
+
+          Most SMBs Are<br />Profitable on Paper &mdash;<br />
+          <em class="not-italic text-forest-700">But Broke in Reality</em>
           </h2>
 
           <!-- Key points -->
@@ -38,7 +38,7 @@
             data-aos="fade-right"
             data-aos-delay="300"
           >
-            Book a Free Profit Leak Audit →
+            Book Your Free Financial Health Audit →
             <Icon name="mdi:arrow-right" size="16" class="transition-transform duration-300 group-hover:translate-x-1" />
           </a>
         </div>
@@ -50,7 +50,7 @@
           <div class="relative overflow-hidden">
             <img
               src="/profit-gross-margins.jpeg"
-              alt="Profit and gross margin analysis for service businesses"
+              alt="Financial statement analysis for SMBs"
               class="w-full h-64 sm:h-72 object-cover object-center"
             />
             <!-- Dark overlay -->
@@ -58,7 +58,7 @@
             <!-- Image label badge -->
             <div class="absolute bottom-4 left-4 flex items-center gap-2 bg-forest-950/70 backdrop-blur-sm px-3 py-1.5">
               <div class="w-2 h-2 bg-gold-500 rounded-full" />
-              <span class="text-white/80 text-[10px] tracking-[0.2em] uppercase font-sans">Gross Margin Analysis</span>
+              <span class="text-white/80 text-[10px] tracking-[0.2em] uppercase font-sans">Financial Statement Analysis</span>
             </div>
           </div>
 
@@ -70,7 +70,7 @@
 
             <blockquote class="font-serif text-xl md:text-2xl font-medium italic text-white leading-relaxed mb-8">
               &ldquo;Revenue doesn&rsquo;t build a business.
-              Profit does.&rdquo;
+              Margin does.&rdquo;
             </blockquote>
 
             <div class="flex items-center gap-4 border-t border-white/15 pt-6">
@@ -79,7 +79,7 @@
               </div>
               <div>
                 <div class="text-white font-semibold text-sm font-sans">The MUTXRI Team</div>
-                <div class="text-forest-400 text-xs tracking-wide">Financial Profit Optimization</div>
+                <div class="text-forest-400 text-xs tracking-wide">Financial Systems &amp; Strategy</div>
               </div>
             </div>
 
@@ -107,16 +107,16 @@
 
 <script setup lang="ts">
 const points = [
-  { title: 'Too Many Callbacks Destroying Margins', body: 'Every callback is a free service call you pay for. Untracked callbacks can silently erase 5–8% of your gross margin every month.' },
-  { title: 'Technicians Not Producing Enough Revenue', body: 'Low revenue per technician is the #1 hidden drag on profitability. Most owners don\'t know their number, and it\'s costing them.' },
-  { title: 'Pricing Mistakes Killing Profit', body: 'Most service companies price on gut feeling, not math. Jobs that look profitable on paper bleed cash in reality.' },
-  { title: 'Cash Flow Problems Even With High Revenue', body: 'Revenue is vanity. Cash is oxygen. High-revenue businesses collapse because nobody managed the actual cash cycle.' },
-  { title: 'No Clear Financial Systems', body: 'No job costing, no P&L review, no KPI dashboard. Flying blind is only viable until it isn\'t.' },
-  { title: 'Inconsistent Flow of Service Calls', body: 'Feast-or-famine cycles make it impossible to plan, hire, or invest.' },
+  { title: 'Financial Statements Are Telling a Different Story', body: 'Your P&L says you\'re profitable, but your cash flow says otherwise. That gap is where profit is leaking. We find it.' },
+  { title: 'No Real Visibility Into Margins', body: 'Without job costing and proper financial systems, you\'re making decisions on gut feel, not facts. You don\'t know which areas of your business are actually profitable.' },
+  { title: 'Pricing Based on Hope, Not Math', body: 'Most SMBs price to win deals, not to protect margins. Small pricing gaps compound into massive leaks over time.' },
+  { title: 'Cash Flow Is Always Tight', body: 'High revenue doesn\'t mean healthy cash flow. Without a system, you\'re always one late payment away from a crisis.' },
+  { title: 'No CFO-Level Oversight', body: 'You\'re too busy running the business to step back and look at the numbers strategically. That\'s exactly where we come in.' },
+  { title: 'Scaling Without a Financial Foundation', body: 'Growing without proper systems means you\'re just scaling your problems faster. Build the foundation first, then grow with confidence.' },
 ]
 
 const sideStats = [
-  { value: '40–50%', label: 'Gross margin achieved after systems are fixed' },
+  { value: '40–50%', label: 'Gross margin target after systems' },
   { value: '6–10%',  label: 'Net profit increase once financial systems are in place' },
 ]
 </script>

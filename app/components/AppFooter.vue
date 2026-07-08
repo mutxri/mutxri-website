@@ -11,7 +11,7 @@
             MUTXRI<span class="text-gold-500">.</span>
           </div>
           <p class="text-white/40 text-sm font-sans font-light leading-relaxed max-w-sm mb-8">
-            We help service businesses fix profit leaks, improve cash flow, and build financial systems that work.
+            We help SMBs find profit leaks, build financial systems, and grow with confidence.
           </p>
 
           <!-- Social icons -->
@@ -128,7 +128,7 @@
   <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-5 flex flex-col md:flex-row items-center justify-between gap-4">
     
     <p class="text-white/25 text-xs font-sans text-center md:text-left">
-      &copy; {{ currentYear }} MUTXRI. All rights reserved. Financial Profit Optimization.
+      &copy; {{ currentYear }} MUTXRI. All rights reserved. Financial Systems for SMBs.
     </p>
 
     <div class="flex items-center gap-6">

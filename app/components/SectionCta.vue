@@ -26,7 +26,7 @@
             data-aos-delay="80"
           >
             Get a Free<br />
-            <em class="not-italic text-forest-400">Profit Leak Audit</em>
+            <em class="not-italic text-forest-400">Financial Health Audit</em>
           </h2>
 
           <p
@@ -47,7 +47,7 @@
           >
             <img
               src="/book-free-audit.jpeg"
-              alt="Book your free profit audit"
+              alt="Book your free financial health audit"
               class="w-full h-48 sm:h-56 object-cover object-center"
             />
             <div class="absolute inset-0 bg-forest-950/45" />
@@ -60,7 +60,7 @@
                 Free. No obligation.
               </div>
               <div class="text-white/60 text-xs font-sans tracking-wide">
-                30-minute profit review with our team
+                30-minute financial health review with our team
               </div>
             </div>
             <div class="absolute top-0 left-0 w-1 h-full bg-gold-500" />
@@ -190,7 +190,7 @@
           </h3>
           <p class="text-white/40 text-sm font-sans mb-8 leading-relaxed">
             Tell us a bit about yourself and we'll reach out to schedule your
-            free profit leak review.
+            free financial health review.
           </p>
 
           <form class="space-y-4" @submit.prevent="submitForm">
@@ -261,7 +261,7 @@
               :disabled="loading"
               class="w-full bg-gold-500 text-forest-950 font-semibold text-sm px-8 py-4 flex items-center justify-center gap-3 hover:bg-gold-400 transition-colors duration-300 disabled:opacity-60 disabled:cursor-not-allowed"
             >
-              <span v-if="!loading">Book a Free Profit Leak Audit →</span>
+              <span v-if="!loading">Book Your Free Financial Health Audit →</span>
               <span v-else>Submitting...</span>
             </button>
 
@@ -328,7 +328,7 @@ watch(error, (val) => {
 
 const form = reactive({
   access_key: "9ed7b374-1a6c-4eda-9fd2-ca43baabc9ce",
-  subject: "New Free Audit Request",
+  subject: "New Financial Health Audit Request",
   name: "",
   company: "",
   contact: "",

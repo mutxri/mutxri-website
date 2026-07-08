@@ -14,14 +14,14 @@
           data-aos="fade-up"
           data-aos-delay="80"
         >
-          What Happens When The System Is Fixed
+          What Happens When the Financial System Works
         </h2>
         <p
           class="text-forest-800/60 text-lg font-sans font-light leading-relaxed"
           data-aos="fade-up"
           data-aos-delay="140"
         >
-          These are the measurable outcomes clients see once financial systems, pricing discipline, and productivity accountability are in place.
+          These are the measurable outcomes clients see once profit leaks are sealed, financial systems are installed, and strategic CFO oversight is in place.
         </p>
       </div>
 
@@ -69,43 +69,43 @@
 const features = [
   {
     icon: 'mdi:chart-areaspline',
-    title: '40–50% Gross Margin Achieved',
+    title: '40-50% Gross Margin Achieved',
     description:
-      'Once pricing models are corrected and cost structure is properly mapped, most service businesses see gross margin improve significantly. This is the single biggest lever in profitability.',
-    stat: '40–50%',
+      'Once your pricing model, cost structure, and margins are properly mapped and managed, most SMBs see gross margin improve significantly.',
+    stat: '40-50%',
     statLabel: 'Gross Margin Target',
   },
   {
     icon: 'mdi:trending-up',
-    title: '6–10% Net Profit Improvement',
+    title: '6-10% Net Profit Improvement',
     description:
-      'Net profit increases once financial systems are in place: job costing, P&L review, overhead allocation, and cash flow management all working together.',
-    stat: '6–10%',
+      'Net profit rises once your financial engine is tuned - proper job costing, clean cash flow management, and KPI-driven decision making all working together.',
+    stat: '6-10%',
     statLabel: 'Net Profit Increase',
   },
   {
-    icon: 'mdi:account-hard-hat',
-    title: 'Measurable Revenue Per Technician Growth',
+    icon: 'mdi:file-chart',
+    title: 'Clear Financial Visibility',
     description:
-      'Improved dispatch efficiency, reduced callbacks, and clearer productivity targets drive measurable output increase from the team you already have, without adding new hires.',
-    stat: '↑ Rev/Tech',
-    statLabel: 'Output Without New Hires',
-  },
-  {
-    icon: 'mdi:phone-incoming',
-    title: 'Consistent, Predictable Service Call Volume',
-    description:
-      'Lead systems eliminate feast-or-famine cycles and give you a pipeline you can actually plan around. Hire, invest, and grow with confidence.',
-    stat: '↑ Pipeline',
-    statLabel: 'Predictable Revenue',
+      'Real-time dashboards, accurate job costing, and cash flow forecasts replace guesswork. You know your numbers at a glance, every single day.',
+    stat: 'Real-Time',
+    statLabel: 'Financial Dashboards',
   },
   {
     icon: 'mdi:cash-check',
-    title: 'Callback Rate Reduced',
+    title: 'Predictable Cash Flow',
     description:
-      'Productivity systems and accountability tracking reduce costly callbacks, protecting gross margin and freeing up technician time for revenue-generating work.',
-    stat: '↓ Callbacks',
-    statLabel: 'Margin Protected',
+      'Cash flow stops being a mystery. You can forecast, plan, and invest with confidence instead of constantly putting out fires.',
+    stat: 'Predictable',
+    statLabel: 'Cash Flow Confidence',
+  },
+  {
+    icon: 'mdi:shield-check',
+    title: 'Audit-Ready Financials',
+    description:
+      'Your books are CPA-ready at any time. Tax season becomes a breeze. No stress, no fire drills, no surprises.',
+    stat: 'Audit-Ready',
+    statLabel: 'CPA Collaboration',
   },
 ]
 </script>

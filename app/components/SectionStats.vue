@@ -24,9 +24,9 @@
 
 <script setup lang="ts">
 const stats = [
-  { value: '40–50%', label: 'Gross Margin Achieved',  icon: 'mdi:chart-areaspline' },
+  { value: '40–50%', label: 'Gross Margin Target',  icon: 'mdi:chart-areaspline' },
   { value: '6–10%',  label: 'Net Profit Improvement', icon: 'mdi:trending-up' },
-  { value: 'P&L',    label: 'Numbers-First Review',   icon: 'mdi:file-chart' },
-  { value: 'Free',   label: 'Profit Audit Offer',     icon: 'mdi:clipboard-search' },
+  { value: 'P&L',    label: 'Financial Statement Focus',   icon: 'mdi:file-chart' },
+  { value: 'Free',   label: 'Financial Health Audit',     icon: 'mdi:clipboard-search' },
 ]
 </script>

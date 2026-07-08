@@ -6,8 +6,8 @@ const isScrolled = computed(() => scrollY.value > 60)
 
 const navLinks = [
   { label: 'The Problem', href: '#about' },
-  { label: 'What We Fix', href: '#services' },
-  { label: 'Our System', href: '#process' },
+  { label: 'Services', href: '#services' },
+  { label: 'How It Works', href: '#process' },
   { label: 'Free Audit', href: '#contact' },
 ]
 

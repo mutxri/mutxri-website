@@ -19,14 +19,14 @@
           data-aos-delay="80"
         >
           Our 4-Step<br />
-          <span class="text-forest-400">Profit System</span>
+          <span class="text-forest-400">Financial System</span>
         </h2>
         <p
           class="text-white/45 text-base font-sans font-light leading-relaxed"
           data-aos="fade-up"
           data-aos-delay="140"
         >
-          A clear, repeatable process for finding and fixing the profit and cash flow gaps inside your service business.
+          A clear, repeatable process for finding profit leaks, building financial systems, and delivering the CFO-level guidance your business needs.
         </p>
       </div>
 
@@ -79,14 +79,14 @@
       <div class="mt-20 pt-14 border-t border-forest-800/60 flex flex-col md:flex-row items-center justify-between gap-8" data-aos="fade-up">
         <div>
           <h3 class="font-serif text-2xl font-semibold text-white mb-2">Ready to find your profit leaks?</h3>
-          <p class="text-white/45 text-sm font-sans">Your free profit audit takes about 15 minutes and carries zero obligation. We review your numbers, identify the leaks, and show you the highest-priority fixes.</p>
+          <p class="text-white/45 text-sm font-sans">Your free financial health audit takes about 15 minutes and carries zero obligation. We review your P&amp;L, balance sheet, and cash flow - identify the leaks, and show you the highest-priority fixes.</p>
 
         </div>
         <a
           href="#contact"
           class="shrink-0 inline-flex items-center gap-3 bg-gold-500 hover:bg-gold-400 text-forest-950 font-semibold text-sm px-8 py-4 transition-all duration-300 group tracking-wide"
         >
-         Book a Free Profit Leak Audit →
+         Book Your Free Financial Health Audit →
           <Icon name="mdi:clipboard-search" size="18" class="transition-transform duration-300 group-hover:scale-110" />
         </a>
       </div>
@@ -101,28 +101,28 @@ const steps = [
     icon: 'mdi:file-chart-outline',
     title: 'Financial Audit',
     description:
-      'We analyze your income statement, pricing model, and cost structure to establish where you stand and what\'s dragging your margins down.',
+      'We dive deep into your P&L, balance sheet, and cash flow statement to establish exactly where you stand. No assumptions. No fluff. Just a clear, honest picture.',
     duration: 'Step 01',
   },
   {
     icon: 'mdi:magnify',
     title: 'Profit Leak Detection',
     description:
-      'We identify hidden losses in labor, callbacks, pricing gaps, and overhead. Most clients discover significant recoverable profit at this stage.',
+      'We identify the specific holes - pricing gaps, overhead inefficiencies, cash cycle problems, margin erosion. Most clients discover significant recoverable profit at this stage.',
     duration: 'Step 02',
   },
   {
     icon: 'mdi:cog-outline',
-    title: 'Operational Optimization',
+    title: 'System Design & Implementation',
     description:
-      'We improve technician productivity, streamline dispatch, reduce callbacks, and build revenue-per-technician targets that your operations can hit.',
+      'We build your financial infrastructure: custom reporting structures, KPI dashboards, job costing frameworks, and cash flow models - all with profit optimization baked in.',
     duration: 'Step 03',
   },
   {
-    icon: 'mdi:rocket-launch-outline',
-    title: 'Growth Systems',
+    icon: 'mdi:chart-line',
+    title: 'Ongoing CFO Support',
     description:
-      'We implement lead generation and marketing systems that produce consistent service calls, removing seasonality and giving you a predictable revenue engine.',
+      'You get ongoing fractional CFO guidance - strategic planning, forecasting, board-ready reporting, and decision support. We\'re your financial partner, not just a monthly report.',
     duration: 'Step 04',
   },
 ]
