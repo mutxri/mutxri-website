@@ -17,7 +17,7 @@
             data-aos-delay="80"
           >
             Most SMBs Are<br />Profitable on Paper &mdash;<br />
-          <em class="not-italic text-forest-700">But Broke in Reality</em>
+            <em class="not-italic text-forest-700">But Cash Poor</em>
           </h2>
 
           <!-- Key points -->

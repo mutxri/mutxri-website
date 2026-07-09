@@ -163,7 +163,6 @@ const serviceLinks = [
   'CFO Services',
   'System Design',
   'CPA Support',
-  'Contact Us',
 ]
 const currentYear = new Date().getFullYear()
 </script>
