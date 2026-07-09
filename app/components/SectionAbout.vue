@@ -15,8 +15,8 @@
             class="font-serif text-4xl md:text-5xl font-bold text-forest-900 leading-tight mb-8"
             data-aos="fade-right"
             data-aos-delay="80"
-
-          Most SMBs Are<br />Profitable on Paper &mdash;<br />
+          >
+            Most SMBs Are<br />Profitable on Paper &mdash;<br />
           <em class="not-italic text-forest-700">But Broke in Reality</em>
           </h2>
 

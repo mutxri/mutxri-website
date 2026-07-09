@@ -11,12 +11,12 @@ interface Service {
 
 const services: Service[] = [
   {
-    icon: 'mdi:clipboard-search',
-    title: 'Profit Leak Detection',
+    icon: 'mdi:chart-areaspline',
+    title: 'Financial Optimization',
     description:
-      'We go beyond surface-level bookkeeping. Using your P&L, balance sheet, and cash flow statement, we pinpoint exactly where profit is bleeding.',
+      'We use your P&L, balance sheet, and cash flow statement to pinpoint exactly where your profit is bleeding — pricing gaps, overhead leaks, margin erosion, and cash cycle inefficiencies.',
     detail:
-      'We start with a deep dive into your financial statements: P&L, balance sheet, and cash flow. Most clients discover significant recoverable profit they didn\'t know existed. We identify pricing gaps, overhead leaks, margin erosion, and cash cycle inefficiencies that are silently draining your business.',
+      'We go beyond surface-level bookkeeping. Using your financial statements, we identify pricing gaps, overhead leaks, margin erosion, and cash cycle inefficiencies. Most clients discover significant recoverable profit they didn\'t know existed. You can\'t fix what you haven\'t measured.',
     benefits: [
       'Pinpoint profit leaks using your actual financial statements',
       'Identify pricing gaps and margin erosion',
@@ -28,16 +28,16 @@ const services: Service[] = [
   },
   {
     icon: 'mdi:chart-line',
-    title: 'Fractional CFO Services',
+    title: 'CFO Services',
     description:
       'Strategic financial leadership without the $300K salary. Forecasting, planning, board-ready reporting, and decision support.',
     detail:
-      'You don\'t need a full-time CFO. You need someone who can guide your financial strategy, build forecasts that actually predict reality, produce board-ready reports, and help you make confident decisions. We provide executive-level financial guidance that pays for itself - without the overhead of a full-time hire.',
+      'You don\'t need a full-time CFO. You need someone who can guide your financial strategy, build forecasts that actually predict reality, produce board-ready reports, and help you make confident decisions. We provide executive-level financial guidance that pays for itself — without the overhead of a full-time hire.',
     benefits: [
       'Data-driven financial forecasting and cash flow planning',
       'Board-ready reporting and KPI dashboards',
       'Strategic guidance for growth and investment decisions',
-      'Fractional cost - full executive impact',
+      'Fractional cost — full executive impact',
     ],
     included: ['Financial Forecasting', 'Cash Flow Planning', 'Board Reporting', 'KPI Dashboards', 'Strategic Guidance'],
     cta: 'Get CFO-Level Support',
@@ -46,9 +46,9 @@ const services: Service[] = [
     icon: 'mdi:cog-outline',
     title: 'System Design',
     description:
-      'We build your financial infrastructure from the ground up - with profit optimization wired into every layer.',
+      'We build your financial infrastructure from the ground up — with profit optimization wired into every layer.',
     detail:
-      'Most businesses run on spreadsheets and gut feel. We change that. We design and implement custom financial reporting structures, KPI dashboards, job costing frameworks, and cash flow models tailored to your business. Every system we build has profit optimization baked in - so you\'re not just tracking numbers, you\'re protecting margin.',
+      'Most businesses run on spreadsheets and gut feel. We change that. We design and implement custom financial reporting structures, KPI dashboards, job costing frameworks, and cash flow models tailored to your business. Every system we build has profit optimization baked in — so you\'re not just tracking numbers, you\'re protecting margin.',
     benefits: [
       'Custom P&L structures and reporting frameworks',
       'KPI dashboards that show real-time profitability',
@@ -123,7 +123,7 @@ onMounted(() => {
           data-aos="fade-up"
           data-aos-delay="140"
         >
-          From profit leak detection and fractional CFO support to custom system design and CPA collaboration. We address every lever that moves profit.
+          From financial optimization and CFO services to custom system design and CPA collaboration. We address every lever that moves profit.
         </p>
       </div>
 
