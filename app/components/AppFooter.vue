@@ -160,10 +160,10 @@
 <script setup lang="ts">
 const serviceLinks = [
   'Financial Optimization',
-  'Productivity Systems',
-  'Growth & Lead Systems',
-  '4-Step Profit System',
-  'Free Profit Audit',
+  'CFO Services',
+  'System Design',
+  'CPA Support',
+  'Contact Us',
 ]
 const currentYear = new Date().getFullYear()
 </script>

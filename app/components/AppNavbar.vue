@@ -8,7 +8,7 @@ const navLinks = [
   { label: 'The Problem', href: '#about' },
   { label: 'Services', href: '#services' },
   { label: 'How It Works', href: '#process' },
-  { label: 'Free Audit', href: '#contact' },
+  { label: 'Contact Us', href: '#contact' },
 ]
 
 const scrollTo = (href: string) => {

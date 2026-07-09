@@ -71,39 +71,39 @@ const features = [
     icon: 'mdi:chart-areaspline',
     title: '40-50% Gross Margin Achieved',
     description:
-      'Once your pricing model, cost structure, and margins are properly mapped and managed, most SMBs see gross margin improve significantly.',
+      'Once your pricing model, cost structure, and margins are properly mapped and managed, most SMBs see gross margin improve significantly. This is the single biggest lever in profitability — and most businesses leave it on the table.',
     stat: '40-50%',
-    statLabel: 'Gross Margin Target',
+    statLabel: 'Gross Margin Achieved',
   },
   {
     icon: 'mdi:trending-up',
-    title: '6-10% Net Profit Improvement',
+    title: '6-10% Net Profit Improved',
     description:
-      'Net profit rises once your financial engine is tuned - proper job costing, clean cash flow management, and KPI-driven decision making all working together.',
+      'Net profit rises once your financial engine is tuned — proper job costing, clean cash flow management, and KPI-driven decision making all working together. That 6-10% goes straight to your bottom line.',
     stat: '6-10%',
-    statLabel: 'Net Profit Increase',
+    statLabel: 'Net Profit Improved',
   },
   {
-    icon: 'mdi:file-chart',
-    title: 'Clear Financial Visibility',
+    icon: 'mdi:chart-line',
+    title: 'CFO-Level Financial Strategy',
     description:
-      'Real-time dashboards, accurate job costing, and cash flow forecasts replace guesswork. You know your numbers at a glance, every single day.',
-    stat: 'Real-Time',
-    statLabel: 'Financial Dashboards',
+      'You get the same strategic financial guidance a full-time CFO provides — forecasting, board-ready reporting, cash flow planning, and growth strategy — at a fraction of the cost. No dilution, no full-time salary, no long-term commitment.',
+    stat: 'CFO',
+    statLabel: 'Strategic Leadership',
   },
   {
     icon: 'mdi:cash-check',
     title: 'Predictable Cash Flow',
     description:
-      'Cash flow stops being a mystery. You can forecast, plan, and invest with confidence instead of constantly putting out fires.',
-    stat: 'Predictable',
-    statLabel: 'Cash Flow Confidence',
+      'Cash flow stops being a mystery. You can forecast, plan, and invest with confidence instead of constantly putting out fires. Know exactly what\'s coming in and going out, every week.',
+    stat: 'Clear',
+    statLabel: 'Cash Flow Visibility',
   },
   {
     icon: 'mdi:shield-check',
     title: 'Audit-Ready Financials',
     description:
-      'Your books are CPA-ready at any time. Tax season becomes a breeze. No stress, no fire drills, no surprises.',
+      'Your books are CPA-ready at any time. Tax season becomes a breeze. No stress, no fire drills, no surprises. Your CPA will thank you — and so will your stress levels.',
     stat: 'Audit-Ready',
     statLabel: 'CPA Collaboration',
   },

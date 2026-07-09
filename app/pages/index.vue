@@ -52,7 +52,7 @@ useHead({
           name: 'Financial Profit Optimization Services',
           itemListElement: [
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Financial Systems Audit' } },
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Profit Leak Detection' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Financial Optimization' } },
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Cash Flow Optimization' } },
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Pricing Strategy' } },
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Revenue Optimization' } },
