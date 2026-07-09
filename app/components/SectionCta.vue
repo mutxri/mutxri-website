@@ -82,7 +82,7 @@
                 <div
                   class="text-white/40 text-xs tracking-[0.2em] uppercase font-sans mb-0.5"
                 >
-                  Call Us | 24/7 Emergency Line
+                  Call Us
                 </div>
                 <div
                   class="text-white font-semibold text-lg font-sans tracking-wide group-hover:text-gold-400 transition-colors duration-300"
