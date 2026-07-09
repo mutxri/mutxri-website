@@ -1,6 +1,0 @@
-{
-  "framework": "nuxtjs",
-  "nodeVersion": "22.x",
-  "buildCommand": "npm run build",
-  "outputDirectory": ".output"
-}
