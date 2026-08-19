@@ -24,9 +24,9 @@
 
 <script setup lang="ts">
 const stats = [
-  { value: '40–50%', label: 'Gross Margin Achieved',  icon: 'mdi:chart-areaspline' },
-  { value: '6–10%',  label: 'Net Profit Improved', icon: 'mdi:trending-up' },
-  { value: 'P&L',    label: 'Financial Statement Focus',   icon: 'mdi:file-chart' },
-  { value: 'Book',   label: 'Free Health Audit',     icon: 'mdi:clipboard-search' },
+  { value: '3', label: 'Statements Analysed',  icon: 'mdi:file-chart' },
+  { value: '10',  label: 'Point Profit Leak Checklist', icon: 'mdi:clipboard-search' },
+  { value: '48 hrs', label: 'Turnaround On Your Health Check',   icon: 'mdi:clock-outline' },
+  { value: '0',   label: 'Long-Term Contracts Required',   icon: 'mdi:calendar-remove' },
 ]
 </script>

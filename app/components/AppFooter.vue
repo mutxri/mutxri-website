@@ -17,25 +17,7 @@
           <!-- Social icons -->
           <div class="flex items-center gap-3">
             <a
-              href="https://www.facebook.com/share/17SkKhTWrf/?mibextid=wwXIfr"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="w-10 h-10 rounded-full bg-forest-800 hover:bg-[#1877F2] flex items-center justify-center transition-colors duration-300 group"
-              aria-label="Facebook"
-            >
-              <Icon name="mdi:facebook" size="18" class="text-white/60 group-hover:text-white transition-colors duration-300" />
-            </a>
-            <a
-              href="https://www.instagram.com/mutxri?igsh=ODB5YjM0N2V0ZTZz"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="w-10 h-10 rounded-full bg-forest-800 hover:bg-gradient-to-br hover:from-[#833AB4] hover:via-[#FD1D1D] hover:to-[#FCAF45] flex items-center justify-center transition-all duration-300 group"
-              aria-label="Instagram"
-            >
-              <Icon name="mdi:instagram" size="18" class="text-white/60 group-hover:text-white transition-colors duration-300" />
-            </a>
-            <a
-              href="tel:+15515500720"
+              href="tel:+155****0720"
               class="w-10 h-10 rounded-full bg-forest-800 hover:bg-gold-500 flex items-center justify-center transition-colors duration-300 group"
               aria-label="Phone"
             >
@@ -89,32 +71,6 @@
                 </span>
               </a>
             </li>
-            <li>
-              <a
-                href="https://www.facebook.com/share/17SkKhTWrf/?mibextid=wwXIfr"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="flex items-start gap-3 group"
-              >
-                <Icon name="mdi:facebook" size="16" class="text-gold-500/70 mt-0.5 shrink-0" />
-                <span class="text-white/40 group-hover:text-white text-sm font-sans transition-colors duration-200">
-                  Facebook
-                </span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/mutxri?igsh=ODB5YjM0N2V0ZTZz"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="flex items-start gap-3 group"
-              >
-                <Icon name="mdi:instagram" size="16" class="text-gold-500/70 mt-0.5 shrink-0" />
-                <span class="text-white/40 group-hover:text-white text-sm font-sans transition-colors duration-200">
-                  @mutxri
-                </span>
-              </a>
-            </li>
           </ul>
         </div>
 
@@ -147,6 +103,13 @@
       </a>
     </div>
 
+  </div>
+
+  <!-- CPA disclaimer (legal requirement) -->
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 pb-6">
+    <p class="text-white/20 text-[11px] font-sans leading-relaxed">
+      MUTXRI is not a licensed CPA firm and does not provide audit, attest, or tax filing services. We work alongside your CPA.
+    </p>
   </div>
 
   <!-- Centered credit -->

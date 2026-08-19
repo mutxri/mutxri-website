@@ -79,14 +79,14 @@
       <div class="mt-20 pt-14 border-t border-forest-800/60 flex flex-col md:flex-row items-center justify-between gap-8" data-aos="fade-up">
         <div>
           <h3 class="font-serif text-2xl font-semibold text-white mb-2">Ready to find your profit leaks?</h3>
-          <p class="text-white/45 text-sm font-sans">Your free financial health audit takes about 15 minutes and carries zero obligation. We review your P&amp;L, balance sheet, and cash flow - identify the leaks, and show you the highest-priority fixes.</p>
+          <p class="text-white/45 text-sm font-sans">The financial health review takes about 15 minutes and carries zero obligation. We review your P&amp;L, balance sheet, and cash flow - identify the leaks, and show you the highest-priority fixes.</p>
 
         </div>
         <a
           href="#contact"
           class="shrink-0 inline-flex items-center gap-3 bg-gold-500 hover:bg-gold-400 text-forest-950 font-semibold text-sm px-8 py-4 transition-all duration-300 group tracking-wide"
         >
-         Book Your Free Financial Health Audit →
+         Contact Us →
           <Icon name="mdi:clipboard-search" size="18" class="transition-transform duration-300 group-hover:scale-110" />
         </a>
       </div>

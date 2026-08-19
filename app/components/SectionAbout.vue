@@ -38,7 +38,7 @@
             data-aos="fade-right"
             data-aos-delay="300"
           >
-            Book Your Free Financial Health Audit →
+            Contact Us →
             <Icon name="mdi:arrow-right" size="16" class="transition-transform duration-300 group-hover:translate-x-1" />
           </a>
         </div>
@@ -69,8 +69,8 @@
             <div class="w-10 h-1 bg-gold-500 mb-8" />
 
             <blockquote class="font-serif text-xl md:text-2xl font-medium italic text-white leading-relaxed mb-8">
-              &ldquo;Revenue doesn&rsquo;t build a business.
-              Margin does.&rdquo;
+              &ldquo;Revenue is vanity. Profit is sanity.<br />
+              Cash flow is reality.&rdquo;
             </blockquote>
 
             <div class="flex items-center gap-4 border-t border-white/15 pt-6">
@@ -78,8 +78,8 @@
                 <Icon name="mdi:account" size="20" class="text-forest-300" />
               </div>
               <div>
-                <div class="text-white font-semibold text-sm font-sans">The MUTXRI Team</div>
-                <div class="text-forest-400 text-xs tracking-wide">Financial Systems &amp; Strategy</div>
+                <div class="text-white font-semibold text-sm font-sans">Jimmy</div>
+                <div class="text-forest-400 text-xs tracking-wide">Founder, MUTXRI</div>
               </div>
             </div>
 
@@ -116,7 +116,7 @@ const points = [
 ]
 
 const sideStats = [
-  { value: '40–50%', label: 'Gross margin target after systems' },
-  { value: '6–10%',  label: 'Net profit increase once financial systems are in place' },
+  { value: '3', label: 'Statements in your review' },
+  { value: '48 hrs', label: 'Turnaround on your health check' },
 ]
 </script>

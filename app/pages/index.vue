@@ -5,7 +5,7 @@ useHead({
     {
       name: 'description',
       content:
-        'MUTXRI helps service business owners fix profit leaks, improve cash flow, and build financial systems that work. Free profit audit. We show you exactly where money is going.',
+        'MUTXRI helps service business owners fix profit leaks, improve cash flow, and build financial systems that work. Financial health review. We show you exactly where money is going.',
     },
     {
       name: 'keywords',
@@ -17,7 +17,7 @@ useHead({
     {
       property: 'og:description',
       content:
-        'Financial profit optimization for service businesses. Fix profit leaks, build cash flow systems, improve pricing and margins. Free audit.',
+        'Financial profit optimization for service businesses. Fix profit leaks, build cash flow systems, improve pricing and margins. Financial health review.',
     },
     { property: 'og:site_name', content: 'MUTXRI' },
     { name: 'twitter:card', content: 'summary_large_image' },
@@ -25,7 +25,7 @@ useHead({
     {
       name: 'twitter:description',
       content:
-        'Financial systems for service businesses. Fix profit leaks, improve cash flow. Free profit audit.',
+        'Financial systems for service businesses. Fix profit leaks, improve cash flow. Financial health review.',
     },
     { name: 'robots', content: 'index, follow' },
     { property: 'og:url', content: 'https://www.mutxri.com/' },
@@ -42,11 +42,7 @@ useHead({
         name: 'MUTXRI',
         description:
           'MUTXRI helps service businesses fix profit leaks, improve cash flow, and build financial systems that turn revenue into real profit.',
-        telephone: '+15515500720',
-        sameAs: [
-          'https://www.facebook.com/share/17SkKhTWrf/?mibextid=wwXIfr',
-          'https://www.instagram.com/mutxri',
-        ],
+        telephone: '+155****0720',
         hasOfferCatalog: {
           '@type': 'OfferCatalog',
           name: 'Financial Profit Optimization Services',

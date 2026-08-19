@@ -69,25 +69,25 @@
 const features = [
   {
     icon: 'mdi:chart-areaspline',
-    title: '40-50% Gross Margin Achieved',
+    title: 'Gross Margin Achieved',
     description:
-      'Once your pricing model, cost structure, and margins are properly mapped and managed, most SMBs see gross margin improve significantly. This is the single biggest lever in profitability — and most businesses leave it on the table.',
-    stat: '40-50%',
+      'Once your pricing model, cost structure, and margins are properly mapped and managed, most SMBs see gross margin improve significantly. This is the single biggest lever in profitability, and most businesses leave it on the table.',
+    stat: 'Margin',
     statLabel: 'Gross Margin Achieved',
   },
   {
     icon: 'mdi:trending-up',
-    title: '6-10% Net Profit Improved',
+    title: 'Net Profit Improved',
     description:
-      'Net profit rises once your financial engine is tuned — proper job costing, clean cash flow management, and KPI-driven decision making all working together. That 6-10% goes straight to your bottom line.',
-    stat: '6-10%',
+      'Net profit rises once your financial engine is tuned, proper job costing, clean cash flow management, and KPI-driven decision making all working together. That improvement goes straight to your bottom line.',
+    stat: 'Profit',
     statLabel: 'Net Profit Improved',
   },
   {
     icon: 'mdi:chart-line',
     title: 'CFO-Level Financial Strategy',
     description:
-      'You get the same strategic financial guidance a full-time CFO provides — forecasting, board-ready reporting, cash flow planning, and growth strategy — at a fraction of the cost. No dilution, no full-time salary, no long-term commitment.',
+      'You get the same strategic financial guidance a full-time CFO provides, forecasting, board-ready reporting, cash flow planning, and growth strategy, at a fraction of the cost. No dilution, no full-time salary, no long-term commitment.',
     stat: 'CFO',
     statLabel: 'Strategic Leadership',
   },
@@ -103,7 +103,7 @@ const features = [
     icon: 'mdi:shield-check',
     title: 'Audit-Ready Financials',
     description:
-      'Your books are CPA-ready at any time. Tax season becomes a breeze. No stress, no fire drills, no surprises. Your CPA will thank you — and so will your stress levels.',
+      'Your books are CPA-ready at any time. Tax season becomes a breeze. No stress, no fire drills, no surprises. Your CPA will thank you, and so will your stress levels.',
     stat: 'Audit-Ready',
     statLabel: 'CPA Collaboration',
   },

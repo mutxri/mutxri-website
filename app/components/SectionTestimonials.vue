@@ -120,7 +120,7 @@ const testimonials = [
   },
   {
     quote:
-      'The free diagnostic audit surfaced $180k in operational waste I didn\'t know existed. The action plan was prioritised, the projected savings were conservative, and we beat every number. When we eventually hired a full-time facilities lead, MUTXRI documented everything and trained them over 30 days. Exactly what a serious partner does.',
+      'The diagnostic review surfaced $180k in operational waste I didn\'t know existed. The action plan was prioritised, the projected savings were conservative, and we beat every number. When we eventually hired a full-time facilities lead, MUTXRI documented everything and trained them over 30 days. Exactly what a serious partner does.',
     name: 'David Kamau',
     role: 'General Manager',
     company: 'CoolComfort HVAC Co.',

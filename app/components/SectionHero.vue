@@ -72,11 +72,9 @@ const bgStyle = computed(() => ({
             class="font-serif text-[2.6rem] sm:text-5xl md:text-6xl lg:text-[4.5rem] font-bold text-white leading-[1.05] mb-6 sm:mb-8 animate-slide-up"
             style="animation-delay: 0.4s; opacity: 0; animation-fill-mode: forwards;"
           >
-            Find the<br />
-            <em class="not-italic text-forest-400">Leak.</em><br />
-            Fix the<br />
-            System. Protect<br />
-            the Profit.
+            The financial clarity<br />
+            a CFO brings.<br />
+            <em class="not-italic text-forest-400">Without the overhead.</em>
           </h1>
 
           <!-- Subtitle -->
@@ -84,7 +82,7 @@ const bgStyle = computed(() => ({
             class="text-white/60 text-base sm:text-lg font-sans font-light max-w-xl leading-relaxed mb-10 sm:mb-12 animate-slide-up"
             style="animation-delay: 0.65s; opacity: 0; animation-fill-mode: forwards;"
           >
-            We help SMB owners find the hidden profit drains in their financial statements, build the systems that plug them, and deliver the financial leadership to grow without the guesswork.
+            Your P&amp;L says you're profitable but your bank account says otherwise. You don't know which jobs make money. And pricing is a guess. We find the leaks, fix the systems, and give you numbers you can trust.
           </p>
 
           <!-- CTA buttons -->
@@ -97,7 +95,7 @@ const bgStyle = computed(() => ({
               class="inline-flex items-center justify-center gap-3 bg-gold-500 hover:bg-gold-400 active:bg-gold-600
                      text-forest-950 font-semibold px-7 sm:px-8 py-3.5 sm:py-4 transition-all duration-300 group text-sm tracking-wide"
             >
-              Book Your Free Financial Health Audit
+              Contact Us
               <Icon name="mdi:arrow-right" size="18" class="transition-transform duration-300 group-hover:translate-x-1" />
             </a>
             <a
@@ -110,24 +108,6 @@ const bgStyle = computed(() => ({
             </a>
           </div>
 
-          <!-- Stats teaser -->
-          <div
-            class="mt-14 sm:mt-20 flex flex-wrap gap-8 sm:gap-10 animate-fade-in"
-            style="animation-delay: 1.1s; opacity: 0; animation-fill-mode: forwards;"
-          >
-            <div
-              v-for="stat in [
-                { value: '40\u201350%', label: 'Gross Margin Target' },
-                { value: '6\u201310%',  label: 'Profit Improvement' },
-                { value: 'P&L',    label: 'P&L to Cash Flow' },
-              ]"
-              :key="stat.label"
-              class="flex flex-col gap-1"
-            >
-              <span class="text-2xl sm:text-3xl font-serif font-bold text-white">{{ stat.value }}</span>
-              <span class="text-[10px] sm:text-xs text-white/40 tracking-[0.2em] uppercase font-sans">{{ stat.label }}</span>
-            </div>
-          </div>
         </div>
 
         <!-- Right: hero image (desktop only) -->
@@ -146,12 +126,6 @@ const bgStyle = computed(() => ({
             <div class="absolute inset-0 bg-forest-950/25" />
             <!-- Bottom gradient fade -->
             <div class="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-forest-900/60 to-transparent" />
-          </div>
-
-          <!-- Floating stat card bottom-left -->
-          <div class="absolute -bottom-5 -left-5 bg-gold-500 px-6 py-4 shadow-2xl">
-            <div class="font-serif text-2xl font-bold text-forest-950">40-50%</div>
-            <div class="text-forest-900/70 text-[10px] tracking-[0.2em] uppercase font-sans mt-0.5">Gross Margin Target</div>
           </div>
 
           <!-- Decorative border offset -->

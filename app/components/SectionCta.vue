@@ -16,7 +16,7 @@
             <div class="w-8 h-px bg-gold-500" />
             <span
               class="text-gold-400 text-xs font-medium tracking-[0.3em] uppercase font-sans"
-              >Free Offer</span
+              >Financial Review</span
             >
           </div>
 
@@ -25,8 +25,8 @@
             data-aos="fade-right"
             data-aos-delay="80"
           >
-            Get a Free<br />
-            <em class="not-italic text-forest-400">Financial Health Audit</em>
+            Financial Health<br />
+            <em class="not-italic text-forest-400">Review</em>
           </h2>
 
           <p
@@ -34,9 +34,9 @@
             data-aos="fade-right"
             data-aos-delay="140"
           >
-            We review your financials, estimate where profit is leaking, and
-            show you the highest-priority opportunities to improve margin and
-            cash flow. No cost, no obligation.
+            We review your P&L, balance sheet, and cash flow statement, quantify
+            where margin is leaking, and map the highest-priority fixes to net
+            profit.
           </p>
 
           <!-- Audit image -->
@@ -47,7 +47,7 @@
           >
             <img
               src="/book-free-audit.jpeg"
-              alt="Book your free financial health audit"
+              alt="Financial health review"
               class="w-full h-48 sm:h-56 object-cover object-center"
             />
             <div class="absolute inset-0 bg-forest-950/45" />
@@ -57,10 +57,10 @@
               <div
                 class="text-white font-serif text-lg font-semibold leading-snug mb-1"
               >
-                Free. No obligation.
+                No obligation.
               </div>
               <div class="text-white/60 text-xs font-sans tracking-wide">
-                30-minute financial health review with our team
+                P&L, balance sheet, and cash flow analysis
               </div>
             </div>
             <div class="absolute top-0 left-0 w-1 h-full bg-gold-500" />
@@ -115,66 +115,6 @@
                 </div>
               </div>
             </NuxtLink>
-
-            <NuxtLink
-              to="https://www.facebook.com/share/17SkKhTWrf/?mibextid=wwXIfr"
-              external
-              target="_blank"
-              rel="noopener noreferrer"
-              class="flex items-center gap-4 group"
-            >
-              <div
-                class="w-12 h-12 rounded-full bg-forest-800 group-hover:bg-[#1877F2] flex items-center justify-center transition-colors duration-300 shrink-0"
-              >
-                <Icon
-                  name="mdi:facebook"
-                  size="20"
-                  class="text-[#1877F2] group-hover:text-white transition-colors duration-300"
-                />
-              </div>
-              <div>
-                <div
-                  class="text-white/40 text-xs tracking-[0.2em] uppercase font-sans mb-0.5"
-                >
-                  Facebook
-                </div>
-                <div
-                  class="text-white font-medium text-sm font-sans group-hover:text-gold-400 transition-colors duration-300"
-                >
-                  Follow us on Facebook
-                </div>
-              </div>
-            </NuxtLink>
-
-            <NuxtLink
-              to="https://www.instagram.com/mutxri?igsh=ODB5YjM0N2V0ZTZz"
-              external
-              target="_blank"
-              rel="noopener noreferrer"
-              class="flex items-center gap-4 group"
-            >
-              <div
-                class="w-12 h-12 rounded-full bg-forest-800 group-hover:bg-gradient-to-br group-hover:from-[#833AB4] group-hover:via-[#FD1D1D] group-hover:to-[#FCAF45] flex items-center justify-center transition-all duration-300 shrink-0"
-              >
-                <Icon
-                  name="mdi:instagram"
-                  size="20"
-                  class="text-[#E1306C] group-hover:text-white transition-colors duration-300"
-                />
-              </div>
-              <div>
-                <div
-                  class="text-white/40 text-xs tracking-[0.2em] uppercase font-sans mb-0.5"
-                >
-                  Instagram
-                </div>
-                <div
-                  class="text-white font-medium text-sm font-sans group-hover:text-gold-400 transition-colors duration-300"
-                >
-                  @mutxri
-                </div>
-              </div>
-            </NuxtLink>
           </div>
         </div>
 
@@ -186,11 +126,11 @@
         >
           <div class="w-10 h-1 bg-gold-500 mb-8" />
           <h3 class="font-serif text-2xl font-semibold text-white mb-2">
-            Start Your Free Audit
+            Request Your Review
           </h3>
           <p class="text-white/40 text-sm font-sans mb-8 leading-relaxed">
-            Tell us a bit about yourself and we'll reach out to schedule your
-            free financial health review.
+            Tell us about your business and we'll reach out to schedule your
+            financial health review.
           </p>
 
           <form class="space-y-4" @submit.prevent="submitForm">
@@ -261,7 +201,7 @@
               :disabled="loading"
               class="w-full bg-gold-500 text-forest-950 font-semibold text-sm px-8 py-4 flex items-center justify-center gap-3 hover:bg-gold-400 transition-colors duration-300 disabled:opacity-60 disabled:cursor-not-allowed"
             >
-              <span v-if="!loading">Book Your Free Financial Health Audit →</span>
+              <span v-if="!loading">Request Your Review →</span>
               <span v-else>Submitting...</span>
             </button>
 
@@ -328,7 +268,7 @@ watch(error, (val) => {
 
 const form = reactive({
   access_key: "9ed7b374-1a6c-4eda-9fd2-ca43baabc9ce",
-  subject: "New Financial Health Audit Request",
+  subject: "New Financial Health Review Request",
   name: "",
   company: "",
   contact: "",

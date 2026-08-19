@@ -16,7 +16,7 @@ const services: Service[] = [
     description:
       'We use your P&L, balance sheet, and cash flow statement to pinpoint exactly where your profit is bleeding — pricing gaps, overhead leaks, margin erosion, and cash cycle inefficiencies.',
     detail:
-      'We go beyond surface-level bookkeeping. Using your financial statements, we identify pricing gaps, overhead leaks, margin erosion, and cash cycle inefficiencies. Most clients discover significant recoverable profit they didn\'t know existed. You can\'t fix what you haven\'t measured.',
+      'We go beyond surface-level bookkeeping. Using your financial statements, we identify pricing gaps, overhead leaks, margin erosion, and cash cycle inefficiencies. This is where the recoverable profit shows up - quantified, line by line. You can\'t fix what you haven\'t measured.',
     benefits: [
       'Pinpoint profit leaks using your actual financial statements',
       'Identify pricing gaps and margin erosion',
@@ -24,7 +24,7 @@ const services: Service[] = [
       'Get a prioritized roadmap of what to fix first',
     ],
     included: ['P&L Review', 'Balance Sheet Analysis', 'Cash Flow Mapping', 'Leak Identification', 'Action Plan'],
-    cta: 'Start Your Free Financial Health Audit',
+    cta: 'Request Your Financial Review',
   },
   {
     icon: 'mdi:chart-line',
@@ -62,7 +62,7 @@ const services: Service[] = [
     icon: 'mdi:shield-check',
     title: 'CPA Support',
     description:
-      'We work alongside your existing CPA firm to ensure your books are audit-ready, your classifications are clean, and tax season is stress-free.',
+      'We work alongside your existing CPA firm to ensure your books are clean and CPA-ready, your classifications are tidy, and tax season is stress-free.',
     detail:
       'Tax season shouldn\'t be a fire drill. We collaborate with your existing CPA firm to make sure your books are clean, your classifications are correct, and everything is ready when they need it. No surprises. No last-minute scrambling. Your CPA will thank you.',
     benefits: [
