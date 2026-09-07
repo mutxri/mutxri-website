@@ -134,7 +134,9 @@
           </p>
 
           <form class="space-y-4" @submit.prevent="submitForm">
-            <input type="hidden" v-model="form.access_key" />
+            <!-- Honeypot: web3forms server-side spam trap. Real visitors never
+                 see this field; if a bot fills it, the submission is dropped. -->
+            <input type="hidden" name="botcheck" v-model="form.botcheck" />
 
             <div>
               <label
@@ -273,6 +275,7 @@ const form = reactive({
   company: "",
   contact: "",
   message: "",
+  botcheck: "",
 });
 
 async function submitForm() {
@@ -281,13 +284,25 @@ async function submitForm() {
   error.value = false;
 
   try {
+    // Look up the sender's public IP / location in the browser and attach it
+    // to the submission, so every notification email shows who submitted and
+    // from where. Falls back to "unknown" silently if the lookup fails.
+    const meta = await getSenderMeta();
+    const payload = {
+      ...form,
+      sender_ip: meta.ip,
+      sender_location: meta.location,
+      sender_browser: meta.ua,
+      submitted_at: new Date().toISOString(),
+    };
+
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
       },
-      body: JSON.stringify(form),
+      body: JSON.stringify(payload),
     });
 
     const result = await response.json();
@@ -296,11 +311,10 @@ async function submitForm() {
       success.value = true;
       if (window.fbq) window.fbq("track", "Lead");
 
-      Object.keys(form).forEach((key) => {
-        if (key !== "access_key" && key !== "subject") {
-          form[key] = "";
-        }
-      });
+      form.name = "";
+      form.company = "";
+      form.contact = "";
+      form.message = "";
     } else {
       throw new Error("Submission failed");
     }
@@ -309,5 +323,41 @@ async function submitForm() {
   } finally {
     loading.value = false;
   }
+}
+
+// Best-effort sender fingerprint: public IP, rough location, and browser.
+// ipapi.co returns all three in one call; ipify is the fallback if it fails.
+async function getSenderMeta() {
+  const ua = navigator.userAgent || "unknown";
+  const fetchWithTimeout = (url) => {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 5000);
+    return fetch(url, { signal: ctrl.signal }).finally(() => clearTimeout(timer));
+  };
+
+  try {
+    const r = await fetchWithTimeout("https://ipapi.co/json/");
+    if (r.ok) {
+      const j = await r.json();
+      if (j && j.ip) {
+        const parts = [j.city, j.region, j.country_name].filter(Boolean);
+        return { ip: j.ip, location: parts.join(", ") || "unknown", ua };
+      }
+    }
+  } catch {
+    // fall through to ipify
+  }
+
+  try {
+    const r = await fetchWithTimeout("https://api.ipify.org?format=json");
+    if (r.ok) {
+      const j = await r.json();
+      if (j && j.ip) return { ip: j.ip, location: "unknown", ua };
+    }
+  } catch {
+    // fall through to unknown
+  }
+
+  return { ip: "unknown", location: "unknown", ua };
 }
 </script>

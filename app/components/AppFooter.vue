@@ -105,13 +105,6 @@
 
   </div>
 
-  <!-- CPA disclaimer (legal requirement) -->
-  <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 pb-6">
-    <p class="text-white/20 text-[11px] font-sans leading-relaxed">
-      MUTXRI is not a licensed CPA firm and does not provide audit, attest, or tax filing services. We work alongside your CPA.
-    </p>
-  </div>
-
   <!-- Centered credit -->
 
 
