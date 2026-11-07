@@ -49,8 +49,8 @@
           <!-- Hero image -->
           <div class="relative overflow-hidden">
             <img
-              src="/profit-gross-margins.jpeg"
-              alt="Financial statement analysis for SMBs"
+              src="/about-relationships.jpeg"
+              alt="Relationship map showing who a listed company deals with"
               class="w-full h-64 sm:h-72 object-cover object-center"
             />
             <!-- Dark overlay -->

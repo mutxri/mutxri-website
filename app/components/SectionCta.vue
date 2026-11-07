@@ -46,8 +46,8 @@
             data-aos-delay="170"
           >
             <img
-              src="/book-free-audit.jpeg"
-              alt="Financial health review"
+              src="/cta-financials.jpeg"
+              alt="Filed income statement with revenue, profit and earnings per share"
               class="w-full h-48 sm:h-56 object-cover object-center"
             />
             <div class="absolute inset-0 bg-forest-950/45" />

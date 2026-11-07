@@ -118,9 +118,9 @@ const bgStyle = computed(() => ({
           <!-- Image frame -->
           <div class="relative overflow-hidden">
             <img
-              src="/hero.jpeg"
-              alt="SMB financial optimization"
-              class="w-full h-[540px] object-cover object-center"
+              src="/hero-market.jpeg"
+              alt="Nairobi market panel with Safaricom at the top of the board"
+              class="w-full h-[540px] object-cover object-left"
             />
             <!-- Subtle dark overlay to blend with dark theme -->
             <div class="absolute inset-0 bg-forest-950/25" />
